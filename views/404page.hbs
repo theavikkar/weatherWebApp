@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather WebApp</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navber">
+            <div class="leftNav">Weather App</div>
+            <div class="rightNav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/weather">Weather</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="aboutRightSection">
+                <img src="../images/404.png" alt="" style="width: 400px; height: 300px;">
+            </div>
+            <div class="leftSection">
+                <p>OPPS!</p>
+                <p>{{errorMessage}}</p>
+                <a href="/"><button>Back to Home Page</button></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>©️ Copyright by 🎯 Satyabala Pvt. Ltd.</p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
